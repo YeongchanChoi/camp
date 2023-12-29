@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Document</title>
+    <script src="./07-signup.js"></script>
+    <link href="./07-signup.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="phone">
+            <input class="pt" type="text" id="pn1" oninput="checkValidation()">-
+            <input class="pt" type="text" id="pn2" oninput="checkValidation()">-
+            <input class="pt" type="text" id="pn3" oninput="checkValidation()">
+        </div>
+        <div class="cert">
+            <span class="cn">000000</span>
+            <button id="send" disabled="true">인증번호 전송</button>
+        </div>
+        <div class="timer">
+
+        </div>
+    </div>
+</body>
+</html>
