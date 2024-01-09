@@ -1,6 +1,3 @@
-const todoInput = document.getElementById("todo-input");
-const todoList = document.getElementById("todo-list");
-
 const keyCodeCheck = () => {
   if (window.event.keyCode === 13 && todoInput.value !== "") {
     createTodo();
